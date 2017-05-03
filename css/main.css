@@ -57,12 +57,12 @@ header {
 }
 #home {
   background-image: url(../assets/images/bg-home.jpg);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 554px;
   text-align: center;
   margin-top: 80px;
+  color: white;
 }
 #home .container {
   color: white;
@@ -111,7 +111,7 @@ footer {
 /*contenedores y columnas*/
 .container {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 0px auto;
 }
 .row:before, .row:after {
