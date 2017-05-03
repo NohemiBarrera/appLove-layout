@@ -21,6 +21,7 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
+  font-family: "Raleway", sans-serif;
 }
 
 img {
@@ -80,4 +81,102 @@ header {
   margin-top: 63px;
   display: inline-block;
   font-size: 14px;
+}
+#services, #text-services {
+  background-color: #f17c72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+.box-services {
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+.text-services {
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+.m-0 {
+  font-size: 15px; 
+}
+footer {
+  text-align: center;
+  height: 70px;
+  background: #373B47;
+  color: white;
+  padding-top: 7px;
+}
+
+/*contenedores y columnas*/
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0px auto;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left;
+}
+
+.col-1 {
+  width: 8.333333%;
+}
+.col-2 {
+  width: 16.666667%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.333333%;
+}
+.col-5 {
+  width: 41.666667%;
+}
+.col-6 {
+  width: 50%
+}
+.col-7 {
+  width: 58.333333%;
+}
+.col-8 {
+  width: 66.666664%;
+}
+.col-9 {
+  width: 74.999997%;
+}
+.col-10 {
+  width: 83.333333%;
+}
+.col-11 {
+  width: 91.666663%;
+}
+.col-12 {
+  width: 100%;
+}
+.nombre {
+  text-align: center;
+}
+h1.work {
+  text-align: center;
+  font-size: 45px;
+}
+.zoom {
+  transition: 0.3s ease;
+}
+
+.zoom:hover{
+  transform: scale(1.5);
+}
+#text, #text-services {
+  text-align: center;
 }
